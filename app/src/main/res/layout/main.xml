@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wlcm"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logovvv"
+        android:id="@+id/imageButton3"
+        android:layout_marginBottom="150dp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Road Emergencies App!!"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:id="@+id/textView4"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonSignIN"
+        android:background="#0277BD"
+        android:layout_width="300dp"
+        android:layout_marginLeft="22dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+         android:text="Sign In"
+        android:textColor="#ffffff"
+         android:onClick="signIn"/>
+
+    <Button
+        android:id="@+id/buttonSignUP"
+        android:layout_width="300dp"
+        android:background="#0277BD"
+        android:layout_marginTop="-44dp"
+        android:layout_marginLeft="22dp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:text="Sign Up" />
+
+</LinearLayout>

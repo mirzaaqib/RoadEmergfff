@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="110dp"
+    android:gravity="center"
+    android:padding="5dp"
+    >
+    <ImageView
+        android:id="@+id/picture"
+        android:src="@drawable/logocc"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        style="@style/TextStyle"
+        android:text="Sharda Hospital"
+        android:layout_toRightOf="@+id/picture"
+        android:id="@+id/cname"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        style="@style/TextStyle"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/cname"
+        android:layout_toRightOf="@+id/picture"
+        android:text="Address sharda hospital"
+        android:id="@+id/caddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        style="@style/TextStyle"
+        android:text="4u38432894"
+        android:layout_toRightOf="@+id/picture"
+        android:layout_below="@+id/caddress"
+        android:id="@+id/cphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

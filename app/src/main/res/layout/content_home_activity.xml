@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-60dp">
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:showIn="@layout/activity_main"
+            android:paddingEnd="20dp"
+            android:background="#ffebee"
+            >
+            <LinearLayout
+                android:id="@+id/linearGrid"
+                android:weightSum="2"
+                android:layout_marginLeft="-8dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:weightSum="2"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="11dp"
+                    >
+                    <RelativeLayout
+                        android:layout_marginTop="55dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:id="@+id/Buttonmechanic"
+                            android:layout_marginRight="4dp"
+                            android:background="@drawable/mechanic"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true" />
+                        <TextView
+                            android:gravity="center"
+                            android:text="Mechanic"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="#FF3D00"
+                            android:layout_alignBottom="@+id/Buttonmechanic"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <ImageButton
+                            android:layout_marginTop="55dp"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:layout_marginRight="-10dp"
+                            android:layout_marginLeft="5dp"
+                            android:id="@+id/Buttonmedcare"
+                            android:background="@drawable/medcare"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+                        />
+                        <TextView
+                            android:gravity="center"
+                            android:text="Medcare"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="#FF3D00"
+                            android:layout_alignBottom="@+id/Buttonmedcare"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+
+                        android:textColor="#ec3030" />
+                        />
+                        />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <RelativeLayout
+
+                        android:layout_weight="1"
+                        android:layout_marginLeft="7dp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <ImageButton
+                            android:layout_marginTop="-1dp"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:layout_marginRight="34dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="-23dp"
+                            android:id="@+id/Buttonchill"
+                            android:background="@drawable/chillout"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:gravity="center"
+                            android:text="ChillOut"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="#FF3D00"
+
+                            android:layout_alignBottom="@+id/Buttonchill"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:layout_marginTop="-10dp"
+                        android:layout_width="0dp"
+                        android:layout_marginRight="-14dp"
+                        android:layout_height="match_parent">
+                        <ImageButton
+                            android:layout_marginTop="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="200dp"
+                            android:layout_marginLeft="-6dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_height="140dp"
+                            android:id="@+id/Buttonservice"
+                            android:background="@drawable/servicestation"
+                            />
+                        <TextView
+                            android:gravity="center"
+                            android:paddingTop="115dp"
+                            android:text="Service Station"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="8dp"
+                            android:layout_marginRight="-3dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="#FF3D00"
+
+
+                            android:layout_alignBottom="@+id/Buttonservice"
+                            android:layout_alignLeft="@+id/Buttonservice"
+                            android:layout_alignStart="@+id/Buttonservice"
+                            android:layout_alignParentTop="true" />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_marginBottom="15dp"
+                android:id="@+id/addbaner"
+                android:layout_below="@+id/linearGrid"
+                android:layout_marginTop="-4dp"
+                android:background="@drawable/quickconnect"
+
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                />
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:layout_marginBottom="110dp"
+                android:layout_below="@+id/addbaner"
+                android:background="@drawable/addbanner"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:id="@+id/imageView" />
+            <RelativeLayout
+                android:layout_marginTop="100dp"
+                android:background="#bcb9b4"
+                android:layout_below="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayout"></RelativeLayout>
+
+            <TextView
+                android:layout_marginBottom="80dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/editText"
+                android:text="Post Your Add here >>>"
+                android:textColor="#ec3030"
+                android:textSize="25dp"
+                android:layout_above="@+id/relativeLayout"
+                android:layout_centerHorizontal="true"
+
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:padding="8dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:showIn="@layout/activity_main"
+            android:background="#ECEFF1"
+            >
+            `<LinearLayout
+                android:id="@+id/linearGrid"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:weightSum="2"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    >
+                    <RelativeLayout
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:onClick="openMechanicActivity"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:layout_marginRight="2dp"
+                            android:id="@+id/Buttonmechanic"
+                            android:background="@drawable/mechanic"
+                            />
+                        <TextView
+                            android:gravity="center"
+                            android:text="Mechanic"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="#FF3D00"
+                            android:layout_alignBottom="@+id/Buttonmechanic"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <ImageButton
+                            android:onClick="openMedCare"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:id="@+id/Buttonmedcare"
+                            android:layout_marginLeft="3dp"
+                            android:background="@drawable/medcare"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+                        />
+                        <TextView
+                            android:gravity="center"
+                            android:text="Medcare"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="#FF3D00"
+                            android:layout_alignBottom="@+id/Buttonmedcare"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <RelativeLayout
+                        android:onClick="openRestaurantBAr"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <ImageButton
+                            android:onClick="openRestaurantBAr"
+                            android:layout_marginTop="-1dp"
+                            android:layout_width="200dp"
+                            android:layout_marginRight="11dp"
+                            android:layout_height="140dp"
+                            android:id="@+id/Buttonchill"
+                            android:background="@drawable/chillout"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:onClick="openRestaurantBAr"
+                            android:gravity="center"
+                            android:text="ChillOut"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="#FF3D00"
+                            android:layout_alignBottom="@+id/Buttonchill"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            />
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:layout_marginTop="-10dp"
+                        android:layout_width="0dp"
+                        android:layout_marginRight="-14dp"
+                        android:layout_height="match_parent">
+                        <ImageButton
+                            android:onClick="openGasFuel"
+                            android:layout_marginTop="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="200dp"
+                            android:layout_marginLeft="-6dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_height="140dp"
+                            android:id="@+id/Buttonservice"
+                            android:background="@drawable/servicestation"
+                            />
+                        <TextView
+                            android:gravity="center"
+                            android:paddingTop="115dp"
+                            android:text="Service Station"
+                            android:layout_width="match_parent"
+                            android:layout_marginRight="-4dp"
+                            android:layout_marginLeft="4dp"
+                            android:paddingBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="#FF3D00"
+
+
+                            android:layout_alignBottom="@+id/Buttonservice"
+                            android:layout_alignLeft="@+id/Buttonservice"
+                            android:layout_alignStart="@+id/Buttonservice"
+                            android:layout_alignParentTop="true" />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:onClick="quickConnect"
+            android:scaleType="fitXY"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/addbaner"
+                android:layout_below="@+id/linearGrid"
+                android:layout_marginTop="-4dp"
+                android:background="@drawable/quickconnect"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                />
+
+            <ImageView
+                android:paddingTop="10dp"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_below="@+id/addbaner"
+                android:layout_alignLeft="@+id/editText"
+                android:layout_alignStart="@+id/editText" />
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/editText"
+                android:text="Post Your Add here >>>"
+                android:textColor="#ec3030"
+                android:textSize="17dp"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

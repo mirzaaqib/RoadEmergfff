@@ -1,0 +1,56 @@
+{
+  "advertisement": [
+    {
+      "a_id": "1",
+      "name": "Name Image",
+      "address": "Advertisement from Znsoft",
+      "number": "12544444",
+      "email_id": "example@gmail.c",
+      "imageurl": "http:\/\/aqib.onstart.in\/app\/advertisemnet\/advert1.png",
+      "redirecturl": "http:\/\/google.com",
+      "tagline": "Advertisement from ZN",
+      "description": "Advertisment fro Znsoftech",
+      "lattitude": "23.0000",
+      "longitude": "75.0000"
+    },
+    {
+      "a_id": "2",
+      "name": "Name2",
+      "address": "Advertismentaddress",
+      "number": "9837487389",
+      "email_id": "example@gmail.c",
+      "imageurl": "http:\/\/aqib.onstart.in\/app\/advertisemnet\/advert1.png",
+      "redirecturl": "http:\/\/google.com",
+      "tagline": "Advertisment",
+      "description": "http:\/\/aqib.onstart.in\/app\/advertisemnet\/advert1.png",
+      "lattitude": "23.0000",
+      "longitude": "75.0000"
+    },
+    {
+      "a_id": "3",
+      "name": "Name Image",
+      "address": "Advertisement from Znsoft",
+      "number": "12544444",
+      "email_id": "example@gmail.c",
+      "imageurl": "http:\/\/aqib.onstart.in\/app\/advertisemnet\/advert1.png",
+      "redirecturl": "http:\/\/google.com",
+      "tagline": "Advertisement from ZN",
+      "description": "Advertisment fro Znsoftech",
+      "lattitude": "23.0000",
+      "longitude": "75.0000"
+    },
+    {
+      "a_id": "4",
+      "name": "Name2",
+      "address": "Advertismentaddress",
+      "number": "9837487389",
+      "email_id": "example@gmail.c",
+      "imageurl": "http:\/\/aqib.onstart.in\/app\/advertisemnet\/advert1.png",
+      "redirecturl": "http:\/\/google.com",
+      "tagline": "Advertisment",
+      "description": "http:\/\/aqib.onstart.in\/app\/advertisemnet\/advert1.png",
+      "lattitude": "23.0000",
+      "longitude": "75.0000"
+    }
+  ]
+}
